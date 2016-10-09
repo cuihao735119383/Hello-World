@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script>
+			var str="abcabcabcabcabcabda";
+			
+		   	fn(str);
+		   	function fn(str){
+		   		var arr=[];
+		   		
+		   		for(var i=0;i<str.length;i++){
+		   				if(str[i]=="a"&&str[i+1]=="b"){
+		   					arr.push(i);
+		   				}
+		   		}
+		   		console.log(arr.length,arr);
+		   	}
+			
+			
+			
+		</script>
+	</body>
+</html>
